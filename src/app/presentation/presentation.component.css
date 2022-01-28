@@ -1,0 +1,31 @@
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-250%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+
+#contentLogo{
+    margin: 0%;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    background: linear-gradient(90deg,rgb(3, 3, 85),rgba(1, 1, 107, 0.911)) ;
+}
+  
+#logo{
+    position: absolute;
+    top:25%;
+    left: 40%;
+    padding: 2%;
+    border: 2px solid gray;
+    border-radius: 50%;
+    background: white;
+    animation: 1s ease-in 0s 1 slideInFromLeft;
+}
+  
